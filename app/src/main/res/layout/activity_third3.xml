@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_lar"
+    tools:context=".ThirdActivity3">
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="277dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="644dp"
+        android:layout_marginBottom="10dp"
+        android:layout_x="51dp"
+        android:layout_y="446dp"
+        android:text="@string/result"
+        android:textSize="14sp"
+        tools:ignore="VisualLintBounds" />
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="213dp"
+        android:layout_height="238dp"
+        android:layout_x="84dp"
+        android:layout_y="34dp" />
+
+    <Button
+        android:id="@+id/predictBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="113dp"
+        android:layout_y="355dp"
+
+        android:background="@drawable/button_style"
+        android:backgroundTint="#0097A7"
+        android:text="predict"
+        android:textColor="#F4EFEF" />
+
+    <Button
+        android:id="@+id/selectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="113dp"
+        android:layout_y="287dp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="#0097A7"
+        android:text="select video"
+        android:textColor="#FAF6F6" />
+</AbsoluteLayout>
+

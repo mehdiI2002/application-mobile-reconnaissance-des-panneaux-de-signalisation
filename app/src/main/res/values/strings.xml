@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">appytb</string>
+    <string name="textview" />
+    <string name="todo" />
+    <string name="predict" />
+    <string name="capture" />
+    <string name="selectimage" />
+    <string name="result" />
+    <string name="Predict">predict</string>
+    <string name="Capture">capture</string>
+    <string name="Selectimage">selectimage</string>
+    <string name="welcome_to_">
+Welcome \nto\nTraffic Sign App
+</string>
+</resources>
